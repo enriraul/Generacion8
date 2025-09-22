@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Ejemplificación de Formulario</h2>
+    <!--
+        Ver los principales elementos para el desarrollo 
+        y especificación de un formulario
+    -->
+    <form action="">
+        <!-- texto -->
+
+        <label for="text">Campo de Texto</label>
+        <input type="text" id="text" name="text"> <br><br>
+
+        <!-- texto -->
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" name="contraseña" id="contraseña"><br><br>
+
+        <!-- email -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <!-- numeros -->
+        <label for="number">Número: </label>
+        <input type="number" id="number"><br><br>
+
+        <!-- Rango -->
+        <label for="range">Rango (0-100):</label>
+        <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+        <!-- Telefono -->
+        <label for="telefono">Teléfono: </label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <!-- url -->
+        <label for="url">Sitio web: </label>
+        <input type="url" id="url" name="url"><br><br>
+
+        <!-- Checkpoint -->
+        <ul>
+            <li><input type="checkbox">Tarea 1</li>
+            <li><input type="checkbox">Tarea 2</li>
+        </ul>
+
+        <!-- Fechas-->
+        <label for="date">Fecha: </label>
+        <input type="date" name="name" id="name"><br><br>
+
+        <!-- Tiempo -->
+        <label for="time">Hora: </label>
+        <input type="time" name="time" id="time"><br><br>
+
+        <label for="datetime">Hora: </label>
+        <input type="datetime-local" name="datetime" id="datetime"><br><br>
+
+        <label for="month">Hora: </label>
+        <input type="month" name="time month" id="month"><br><br>
+
+        <label for="week">Hora: </label>
+        <input type="week" name="time" id="week"><br><br>
+
+        <!-- checkbox option2 -->
+        <label>Checkbox</label><br>
+        <input type="checkbox" id="check1" value="opcion1">
+        <label for="check1">Opción 1</label><br>
+        <input type="checkbox" id="check2" value="opcion2">
+        <label for="check2">Opción 2</label> <br><br>
+
+        <!--Radio buttons-->
+        <label>Radio</label><br>
+        <input type="radio" id="radio1" value="opcion1">
+        <label for="radio1">Opción 1</label><br>
+        <input type="radio" id="radio2" value="opcion2">
+        <label for="radio2">Opción 2</label> <br><br>
+
+        <!-- TextArea -->
+        <label for="textarea">Comentarios: </label><br>
+        <textarea name="textare" id="textarea" rows="4" cols="4 0"></textarea>
+        <br><br>
+        <!-- Buttons -->
+        <input type="submit" value="enviar"> <!-- Enviar el formulario -->
+        <input type="reset" value="limpiar"> <!-- Limpia formulario -->
+        <button type="button">Bontón normal</button>
+    </form>
+</body>
+</html>
