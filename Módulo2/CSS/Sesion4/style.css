@@ -1,0 +1,70 @@
+/*
+Selectores: 
+
+    Etiqueta: Empleamos la etiqueta utilizada
+    en HMTL: h1, p, 
+
+*/
+
+h2{
+    color:blue;
+    font-size: large;
+}
+
+p{
+    color:chocolate;
+}
+
+/*
+Selectores: 
+
+    Clase:
+    Sintaxis: .etiqueta{}
+    Permite la agrupación de diferentes componentes
+    de html y aplica los cambios a cada uno de ellos.
+
+*/
+.font-purple{
+    color:purple;
+}
+
+/*
+Selectores: 
+
+    Identificador: 
+    html: id="etiqueta"
+    CSS: #etiqueta 
+
+*/
+#encabezado-azul{
+    color:blue;
+}
+
+div p, div h2{
+    color:cadetblue;
+    font-size: 14px;
+}
+
+p.font-purple{
+    color: darkblue;
+}
+div{
+    background-color: grey;
+}
+
+*{
+    font-size: 35px;
+    color: darkred;
+}
+
+/*
+
+Texto:
+    color: vcolor del texto
+    font-size: tamaño de la letra px
+    text-align: left, center, right, justify
+
+colores:
+    background-color: color
+
+*/
