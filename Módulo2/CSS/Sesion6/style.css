@@ -1,0 +1,34 @@
+header{
+    background: rgb(67, 128, 141);
+    height: 100px; /*La altura del componente*/
+    padding: 50px; /*Es el espacio que existe entre el borde y el elemento del contenido*/
+    border: 10px solid rgb(13, 74, 89);
+    background-image: url("logo.jpeg");
+    background-repeat: no-repeat;
+    background-size:100px;
+    background-position: center center;
+    background-position-x: 65%;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+}
+
+.desayuno{
+    border: 1px solid grey;
+    text-align: center;
+    background-color: rgb(234, 192, 138);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.div-comidas{
+    border: 3px solid palegoldenrod;
+}
+.comidas{
+    text-align: center;
+}
+

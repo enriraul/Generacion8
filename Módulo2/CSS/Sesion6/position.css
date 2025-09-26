@@ -1,0 +1,47 @@
+/*
+Posicion estatica: Los elementos que componen el HTML
+conservan el orden en el cual fueron especificados y esto determina
+su espacio en el documento.
+
+
+Posición absoluta: Es el posicionamiento del componente de HTML
+en relación al documento en sí.
+
+
+Posición relativa: Es el ajuste del espacio que un componente en relación
+a las dimensiones del componente que lo contiene
+
+
+*/
+
+section{
+    border: 5px solid rgb(59, 144, 100);
+    width: 250px;
+    height: 700px;
+
+    /* position:relative; */
+}
+.contenedor{
+    background: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    /* top: 0px;
+    right: 0px;
+    bottom:0px;
+    left: 0px; */
+    /* inset: 0px;
+    margin: auto; */
+}
+
+.red{
+    background: rgb(67, 7, 7);
+}
+.blue{
+    background: blue;
+}
+.yellow{
+    background: yellow;
+}
