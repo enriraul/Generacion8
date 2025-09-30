@@ -1,0 +1,78 @@
+.padre{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    /*
+    row 
+    column
+    row-reverse
+    column-reverse
+    */
+    direction: lrt;
+    /*
+    ltr = left to right
+    rtl = right to left
+    */
+    flex-wrap: wrap;
+    /*
+    flex-wrap: controla los elemento dentro del contenedor y
+    determina si los hijos se ajustan a una misma fila o en multiples filas
+
+    -nowrap: ajusta los elementos en una fila, es decir, el tamaño se acomoda
+    al espacio del contenedor
+
+
+    wrap: el elemento no modifica su tamaño.
+    */
+    width: 200px;
+    height: 250px;
+
+    justify-content:center;
+    /*
+    justify-content: 
+
+    center: Centra elementos
+    space-between: posiciona al primer y ultimo elemento en los bordes
+    y los demás elementos se separan de manera equidistante
+
+    space-evenly: Distribuye los elementos de manera equidistante
+    flex-start: Posiciona los elementos al inicio
+    flex-end: Posiciona los elemento al final
+    */
+
+    align-content: center;
+
+    /*
+    
+        Determina la distribución en el eje opuesto al dominante
+
+    */
+
+    align-items: flex-end;
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: rgb(127, 171, 69);
+}
+
+.item:first-child{
+    background-color: red;
+    /* flex:3;
+    order:2; */
+    height: 20px;
+}
+.item:nth-child(2){
+    background-color: blue;
+    /* flex:2;
+    order:3; */
+    height: 30px;
+}
+
+.item:last-child{
+    background-color: yellow;
+    /* flex: 1;
+    order:1; */
+}
