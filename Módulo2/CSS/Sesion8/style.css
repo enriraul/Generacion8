@@ -1,0 +1,18 @@
+.contenedor{
+    border: 1px solid black;
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: minmax(50px,1fr) 2fr 50px; /*1fr total del espacio*/
+    /*1200px  -100px = 1100px 550px */
+    grid-template-rows: 1fr 2fr 3fr;
+}
+
+.contenedor div{
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.793);
+}
