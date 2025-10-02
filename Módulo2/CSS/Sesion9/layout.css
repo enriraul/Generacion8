@@ -1,0 +1,24 @@
+.contenedor{
+    display: grid;
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    grid-template-columns: minmax(50px,1fr) 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+.contenedor header{
+    background-color: darkolivegreen;
+    grid-column: 1/-1;
+}
+.contenedor main{
+    background-color: darkcyan;
+    grid-column: 2/-1;
+}
+.contenedor aside{
+    background-color: darkgoldenrod;
+}
+.contenedor footer{
+    background-color: darkslategrey;
+    grid-column: -4/-1;
+}

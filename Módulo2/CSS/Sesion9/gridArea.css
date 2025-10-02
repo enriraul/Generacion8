@@ -1,0 +1,28 @@
+.contenedor{
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: 
+    "hd hd hd"
+    "mn mn sb"
+    "ft ft ft"
+}
+
+.contenedor header{
+    background-color: darkolivegreen;
+    grid-area: hd;
+
+}
+.contenedor main{
+    background-color: darkcyan;
+    grid-area: mn;
+}
+.contenedor aside{
+    background-color: darkgoldenrod;
+    grid-area: sb;
+}
+.contenedor footer{
+    background-color: darkslategrey;
+    grid-area: ft;
+}
