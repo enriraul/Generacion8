@@ -1,0 +1,53 @@
+.Navbar{
+    background-color: hsl(0, 0%, 0%);
+    padding:40px 10px;
+    text-align: center;
+}
+
+.Navbar a{
+    color:white;
+}
+
+.Carrusel{
+    height: 200px;
+    background-color: rgb(44, 44, 58);
+}
+
+main .Cartelera{
+    background-color: rgb(48, 78, 78);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 10% 5% ;
+    gap: 2%;
+}
+
+.Cartelera div{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(178, 205, 196);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* display:grid;
+    justify-items: center;
+    align-items: center;*/
+    border-radius: 10%; 
+}
+
+.Descripcion{
+    text-align: center;   
+}
+
+.Pelicula{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    padding: 3% 0%;
+    margin-bottom: 2%;
+}
