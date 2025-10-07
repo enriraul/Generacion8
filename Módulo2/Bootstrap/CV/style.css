@@ -1,0 +1,22 @@
+.navbar-style{
+    background-color: rgb(102, 122, 102);
+    padding: 1%;
+}
+
+.logo-navbar{
+    width: 20%;
+    border-radius: 50%;
+}   
+
+.nav-item a{
+    color:white;
+    font-size: 1.3rem;
+}
+
+.logo-cv{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 10px solid rgb(102, 122, 102);
+}
+
