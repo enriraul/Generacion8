@@ -1,0 +1,42 @@
+Indicaciones Docker
+
+Crear una carpeta 'Postgresql'
+
+docker compuse up -d
+
+docker exec -it postgres-clase bash
+
+psql -U admin -d postgres
+
+---------------------------------------------
+
+Comandos de Postgresql
+
+psql -U postgres
+
+CREATE USER admin WITH PASSWORD '';
+
+psql -U admin -d postrgres
+
+
+----------------------------------------------
+SQL metacomandos
+
+\l listas base de datos
+\dt listas las tablas
+\c conectar a una base de datos
+\d nombre_tabla
+\du descripción de usuarios
+\q salir
+
+
+
+-----------------------------------------
+CREAR BASE DE DATOS
+
+1a alternativa
+CREATE DATABASE nombre_db;
+ALTER DATABASE nombre_db OWNER TO nombre_user;
+
+2a alternativa
+CREATE DATEBASE nombre_db WITH OWNER 'nombre_user';
