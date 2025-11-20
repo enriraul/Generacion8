@@ -33,5 +33,15 @@ public class Persona{
         -Informacion del vehiculo
         -Datos del propietario, acompañados de la matricula y tipoVehiculo
     
+        Comandos de ejecución y compilación. 
+        Compilación 
+            javac archivo1.java archivo2.java archivo3.java 
+            javac *.java
+        
+        Ejecución:
+            java Main.java
+
+        error lens
+
     */
 }

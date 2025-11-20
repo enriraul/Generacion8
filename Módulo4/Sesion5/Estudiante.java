@@ -18,26 +18,15 @@ public class Estudiante extends Persona{
     public void info(){
         String informacion = String.format("""
             Información del alumno:
-            =======================
-
-            Informacion: class Persona
 
             Nombre: %s
             Apellido: %s
             Edad: %d
             Curp: %s
 
-            ======================
-
-            Informacion: class Estudiante
-
-
             Matricula: %s
             Facultad: %s
             Semestre: %d
-
-            ======================
-
 
         """,this.getNombre(), this.apellido, this.getEdad(), 
         this.getCurp(), this.matricula, this.Facultad, this.semestre);

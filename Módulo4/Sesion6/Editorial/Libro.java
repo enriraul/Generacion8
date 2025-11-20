@@ -1,10 +1,9 @@
 public class Libro{
 
-    private String Autor, Obra, ISBN, Editorial;
+    private String Obra, ISBN, Editorial;
     private int año;
 
-    public Libro(String Autor,String Obra, String ISBN, String Editorial, int año){
-        this.Autor= Autor;
+    public Libro(String Obra, String ISBN, String Editorial, int año){
         this.Obra = Obra;
         this.ISBN = ISBN;
         this.Editorial = Editorial;
@@ -12,9 +11,7 @@ public class Libro{
     }
 
     //Métodos Get
-    public String getAutor (){
-        return this.Autor;
-    }
+
     public String getObra (){
         return this.Obra;
     }
@@ -29,9 +26,7 @@ public class Libro{
     }
     //Métodos Set
 
-    public void setAutor (String Autor){
-        this.Autor= Autor;
-    }
+
     public void setObra (String Obra){
         this.Obra = Obra;
     }
