@@ -1,0 +1,47 @@
+-Biblioteca
+    -UML
+        +Modelos de Clases
+    -App
+        +Clases
+    -Data
+        +Archivos
+
+
+
+
+Biblioteca
+    Arraylist catalogo 
+
+    AgregarLibros
+    BuscarLibros
+    EnlistarLibros
+    RemoverLibros
+
+LibroExistencia
+    Libro
+    existencias
+
+Libro
+    ISBN (International standard book number)
+    titulo 
+    ArrayList autor
+    editorial
+
+    set-get
+    MostrarInformacion
+
+Autor 
+    nombre
+    apellido
+    nacionalidad
+    telefono
+
+
+Main 
+
+
+Estructuras Clases
+Arraylist
+Proceso lógico más complicado
+La incorporación de varias clases a la vez
+Menus interactivos - terminal
