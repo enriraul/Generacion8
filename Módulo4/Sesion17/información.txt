@@ -1,0 +1,29 @@
+-bin
+    archivos binarios: Tras la ejecución del programa se generan de manera
+    automática estos archivos
+
+-lib
+    Conjunto de liberías (en formato .jar) externeas necesarias para el 
+    proyecto
+
+-src
+    Códigos
+
+-Docker
+    Archivos docker para la creación de la base de datos
+
+
+DB: credenciales
+usuario: Admin
+psswd: root
+
+
+/****************************************/
+Compilación: 
+
+
+javac -cp "bin;lib/postgresql-42.7.5.jar" -d bin src/ComandoSelect.java
+
+Ejecución:
+
+java -cp "bin;lib/postgresql-42.7.5.jar" src/ComandoSelect.java 
