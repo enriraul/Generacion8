@@ -1,11 +1,13 @@
 public class Producto{
 
+    private int id;
     private String nombre;
     private float precio;
     private String categoria;
     private int stock;
 
-    public Producto(String nombre, float precio, String categoria, int stock){
+    public Producto(int id,String nombre, float precio, String categoria, int stock){
+        this.id = id;
         this.nombre = nombre;
         this.precio = precio;
         this.categoria = categoria;
